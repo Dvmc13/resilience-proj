@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: resilience-library
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: false
+      # Opcional: define el nombre de la config a buscar en el repo Git (por defecto usa el 'spring.application.name')
+      # name: resilience-library
+      # Opcional: para apuntar a una rama/label específica en el repo
+      # label: main
